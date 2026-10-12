@@ -1,0 +1,13 @@
+# conda env create -f environment.yml && conda activate ug_msi
+# Versions below are the ones the toy example was verified with.
+# TODO(stav): if you ran the paper analysis with other bcftools/pandas versions, pin those.
+name: ug_msi
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.12
+  - numpy=1.26.4
+  - pandas=2.2.3
+  - bcftools=1.19
+  - htslib=1.19   # bgzip, tabix

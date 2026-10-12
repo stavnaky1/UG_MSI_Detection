@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below and the software archive."
+title: "UG_MSI_Detection: homopolymer-indel MSI features from Ultima Genomics somatic VCFs"
+type: software
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/stavnaky1/UG_MSI_Detection"
+authors:
+  - family-names: Naky
+    given-names: Stav
+    affiliation: "Technion – Israel Institute of Technology"
+    # TODO(stav): add ORCID, e.g. orcid: "https://orcid.org/0000-0000-0000-0000"
+  # TODO(stav): add co-authors who contributed to the code, if any
+keywords:
+  - microsatellite instability
+  - mismatch repair deficiency
+  - homopolymer indels
+  - Ultima Genomics
+  - cancer genomics
+references:
+  - type: data
+    title: "Reference regions for Ultima Genomics MSI analysis: UG HCR v1.4 and padded Twist Exome 2.0 targets (GRCh38)"
+    authors:
+      - family-names: Naky
+        given-names: Stav
+    doi: 10.5281/zenodo.23160540
+    url: "https://doi.org/10.5281/zenodo.23160540"
+# TODO(stav): once the article has a DOI, uncomment and complete:
+# preferred-citation:
+#   type: article
+#   title: "Accurate Microsatellite Instability Classification Using Ultima Genomics Platform Across Multiple Tumor Types"
+#   authors:
+#     - family-names: Naky
+#       given-names: Stav
+#   journal: "<journal>"
+#   year: <year>
+#   doi: "<doi>"

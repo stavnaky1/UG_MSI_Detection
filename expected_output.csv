@@ -1,0 +1,3 @@
+vcf,vcf_path,n_records_in_bed,n_records_after_filters,Total indels,h-indels,% h-indels,1nt del,% 1nt del,2nt del,1nt ins,Long h-indels,% Long h-indels in all indels,1nt del in long hmers,% 1nt del in long hmers,% 1nt del in long hmers of all indels,1 nt del / 1 nt ins,2 nt del / 1 nt ins
+toy_msi.flt_toy_regions_PASS_indels_q16_x15_all.vcf.gz,toy_out/toy_msi.flt_toy_regions_PASS_indels_q16_x15_all.vcf.gz,131,119,119,99,83.19327731092437,85,71.42857142857143,6,8,69,57.98319327731093,60,86.95652173913044,50.42016806722689,10.625,0.75
+toy_mss.flt_toy_regions_PASS_indels_q16_x15_all.gnomad_annotated.vcf.gz,toy_out/toy_mss.flt_toy_regions_PASS_indels_q16_x15_all.gnomad_annotated.vcf.gz,62,50,50,25,50.0,14,28.000000000000004,3,8,9,18.0,4,44.44444444444444,8.0,1.75,0.375
