@@ -6,10 +6,7 @@
 Homopolymer-indel features for microsatellite instability (MSI) detection from
 Ultima Genomics (UG) somatic VCFs.
 
-This repository accompanies:
-
-> TODO(stav): Naky S, et al. *Accurate Microsatellite Instability Classification
-> Using Ultima Genomics Platform Across Multiple Tumor Types.* Journal, year. doi:…
+This repository accompanies a research paper in review, and the README will be updated once published.
 
 ## What it does
 
@@ -21,8 +18,7 @@ counts and fractions of homopolymer indels (h-indels), including 1-nt deletions 
 long (10–15 bp) homopolymers.
 
 The output is one row of features per sample.
-TODO(stav): state the feature and cutoff used for the MSI/MSS call in the paper,
-e.g. "samples with `<column>` ≥ `<value>` are classified MSI".
+
 
 ## Installation
 
