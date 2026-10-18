@@ -6,7 +6,7 @@ cd "$(dirname "$0")"
 PY="${PYTHON:-python}"
 
 rm -rf toy_out
-"$PY" ../hmer_indel_summary.py \
+"$PY" hmer_indel_summary.py \
     --bed_for_intersect toy_regions.bed \
     --path_with_vcfs    vcfs \
     --output_dir        toy_out \
