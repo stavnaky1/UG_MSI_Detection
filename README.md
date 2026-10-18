@@ -52,8 +52,8 @@ bash scripts/download_references.sh refs/    # downloads and md5-checks both BED
 
 | File | Territory | Output tag | Source |
 |---|---|---|---|
-| `ug_hcr.v1.4.bed` | Whole genome (UG high-confidence regions) | `wgs` | Ultima Genomics. TODO(stav): source URL |
-| `hg38_exome_v2.0.2_targets_sorted_validated.annotated_0.padded_100.bed` | Twist Exome 2.0 targets, padded 100 bp | `wxs` | Derived from Twist Bioscience targets. TODO(stav): source URL and processing |
+| `ug_hcr.v1.4.bed` | Whole genome (UG high-confidence regions) | `wgs` | Ultima Genomics.  |
+| `hg38_exome_v2.0.2_targets_sorted_validated.annotated_0.padded_100.bed` | Twist Exome 2.0 targets, padded 100 bp | `wxs` | Derived from Twist Bioscience targets.  |
 
 Both are GRCh38 with `chr`-prefixed contig names and are archived at
 [doi:10.5281/zenodo.23160540](https://doi.org/10.5281/zenodo.23160540).
