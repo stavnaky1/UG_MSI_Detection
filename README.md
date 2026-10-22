@@ -1,7 +1,6 @@
 # UG_MSI_Detection
 
 [![Reference data DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23160540.svg)](https://doi.org/10.5281/zenodo.23160540)
-<!-- TODO(stav): after the first GitHub release is archived by Zenodo, add the code DOI badge here. -->
 
 Homopolymer-indel features for microsatellite instability (MSI) detection from
 Ultima Genomics (UG) somatic VCFs.
@@ -81,8 +80,7 @@ Version of Gnomad used in this work: Exome r2.1.1.
 
 Each `*.vcf.gz` in `--path_with_vcfs` must be:
 
-- a **single-sample** somatic VCF from the Ultima Genomics pipeline
-  (TODO(stav): pipeline name/version), bgzipped and indexed (`.tbi` or `.csi`);
+- a **single-sample** somatic VCF from the Ultima Genomics pipeline, bgzipped and indexed (`.tbi` or `.csi`);
 - annotated with `INFO/VARIANT_TYPE` (`h-indel` / `non-h-indel` / `snp`),
   `INFO/X_HIL` (homopolymer length), `INFO/X_HIN` (homopolymer nucleotide) and
   `FORMAT/VAF`;
