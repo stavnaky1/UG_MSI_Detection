@@ -75,8 +75,7 @@ for f in gnomad.genomes.*.sites.chr*.vcf.bgz; do
 done | bgzip > gnomad_af.tsv.gz
 tabix -s1 -b2 -e2 gnomad_af.tsv.gz
 ```
-
-TODO(stav): name the gnomAD release used in the paper.
+Version of Gnomad used in this work: Exome r2.1.1.
 
 ## Input VCFs
 
